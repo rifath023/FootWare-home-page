@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+header .logo{
+    color: white;
+    font-size: 18px;
+}
+span{
+    color:rgb(255, 40, 83) ;
+}
+.subscribe button{
+    background-color:rgb(255, 40, 83) ;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    transition: .3s;
+}
+.subscribe button:hover{
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    background-color: rgba(171, 169, 169, 0.178);
+
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: .3s;
+}
+nav ul li a:hover{
+    color: rgb(255, 27, 72);
+    transition: .3s;
+}
+main{
+    color: white;
+}
+.sale{
+    width: 500px;
+    text-align: center;
+    margin: 120px 50px;
+}
+.sale h3, h1, p{
+    margin: 20px;
+}
+.btn1, .btn2{
+    background-color:rgb(255, 40, 83) ;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    transition: .3s;
+    margin: 10px 10px;
+}
+
+.btn1:hover, .btn2:hover{
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
